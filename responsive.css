@@ -1,4 +1,7 @@
 @media screen and (max-width:1050px) {
+    header{
+        width: 100%;
+    }
     .header-nav-link  .navmenu{
         display: block;
     position: fixed;
@@ -70,10 +73,78 @@
         padding: 0;
         
     }
+    .contact-section .container{
+padding: 60px 10px;
+    }
     .image-box{
     
         width: 300px;
         height: 300px;
+    }
+    .a-right{
+        width: 100%;
+        padding:5px 20px;
+    }
+    .top{
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .exp-box{
+        flex-direction: column;
+        
+    }
+    .exp-box{
+     align-items: center;
+    }
+    .experience-box{
+     width: 100%;
+
+    }
+    
+    .contact-box{
+   flex-direction: column;
+        
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .a-letf{
+        width: 100%;
+    }
+    .a-letf .image-box{
+   width: 100%;
+        
+    }
+  
+    .project-box{
+width:100%;
+padding: 10px ;
+    }
+    .project-content .buttonbox {
+   flex-wrap: wrap;
+   gap: 0px;
+   
+
+    }
+    .contact-box{
+     width: 100%;
+     
+        
+    }
+    .c-box a{
+      flex-direction: column;
+    }
+    .left .image-box{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 250px;
+        height: 250px;
     }
     
 }
